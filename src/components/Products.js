@@ -29,6 +29,8 @@ export default class Products extends Component {
 
         let {match} = this.props;
         let url = match.url;
+        let {location} = this.props;
+        console.log('Products',location)
 
         return(
             <div className="container">

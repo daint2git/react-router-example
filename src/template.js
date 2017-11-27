@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Template extends Component {
+export default class Template extends Component {
     render () {
         return(
             <div>

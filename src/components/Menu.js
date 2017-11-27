@@ -21,7 +21,12 @@ const menus = [
         label: 'Danh sách sản phẩm',
         to: '/products',
         exact: false
-    }        
+    },
+    {
+        label: 'Đăng nhập',
+        to: '/login',
+        exact: false
+    }     
 ];
 
 // <li className={active}>
